@@ -23,6 +23,15 @@ jobs:
     - name: Checking Files
       run: |
         tree .
+        
+    - name: Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install autoconf
+        sudo apt-get autoremove automake
+        sudo apt-get install automake
+        sudo apt-get update
+        sudo apt-get install libtool
        
     - name: Building
       run: |

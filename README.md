@@ -1,5 +1,5 @@
 curl-android-ios
-================
+=================
 The goal of this project is to provide a pre-compiled version of libcurl to be
 used in Android and iOS.
 
